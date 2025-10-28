@@ -15,7 +15,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 
 
-export default function dashboardPage() {
+export default function DashboardPage() {
 
     const [messages, setMessages] = useState<Message[]>([]);
     const [isLoading, setIsLoading] = useState(false)
